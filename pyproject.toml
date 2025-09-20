@@ -1,10 +1,19 @@
 [project]
 name = "flac2mp3"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python tool to convert FLAC audio files to MP3 format using pydub"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ffmpeg-python>=0.2.0",
     "pydub>=0.25.1",
 ]
+
+[project.urls]
+Homepage = "https://github.com/eneisyou/flac2mp3"
+Repository = "https://github.com/eneisyou/flac2mp3.git"
+Issues = "https://github.com/eneisyou/flac2mp3/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
